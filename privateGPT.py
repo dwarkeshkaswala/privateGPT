@@ -12,6 +12,7 @@ from chromadb.config import Settings
 
 load_dotenv()
 
+#https://huggingface.co/vicuna/ggml-vicuna-13b-1.1/resolve/main/ggml-vic13b-q5_1.bin
 embeddings_model_name = os.environ.get("EMBEDDINGS_MODEL_NAME")
 persist_directory = os.environ.get('PERSIST_DIRECTORY')
 
